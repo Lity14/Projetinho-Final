@@ -1,0 +1,13 @@
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Seja bem-vindo à Minha Landing Page</h1>
+        <p>Insira seu e-mail para receber nossas novidades:</p>
+        <form action="/submit_form.php" method="post">
+            <input type="email" name="email" placeholder="Seu e-mail" class="input-field" required>
+            <button type="submit" class="button">Inscrever-se</button>
+        </form>
+    </div>
+</body>
+</html> 
